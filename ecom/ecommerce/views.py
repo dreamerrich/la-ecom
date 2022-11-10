@@ -22,5 +22,8 @@ def contacts(request):
 def test(request):
     return render(request, 'testimonial.html')
 
+def cart_pro(request):
+    return render(request, 'cart.html')
+
 def main(request):
     return render(request, 'main.html')
